@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: '12.x'
     - name: set up Docker
-      uses: docker/setup-docker-action@v2
+      uses: docker/setup-docker-action@v5
     - name: Set up Docker Compose
       uses: docker/setup-compose-action@v2
     - name: Set environment variables
